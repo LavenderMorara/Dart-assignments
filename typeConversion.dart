@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 void main(){
+  // used .parse() to convert to num, .toString() to convert to String and .toDouble() to convert to douuble
   String inString = '25';
   int num1 = int.parse(inString);
   print('$num1');

@@ -2,10 +2,12 @@ void main(){
   dynamic checkPositiveOrNegative(){
       List<int> nums = [1, 0, -3];
       for (int num in nums){
+        // if num is greater than 0 print positive
       if (num > 0){
          print('$num is positive');
       }
-
+       
+      //  if num is less than 0 print negative
       else if(num < 0){
         print('$num is negative');
       }
@@ -30,6 +32,7 @@ void main(){
 
   List<int> numbers = [1, 2, 3, 4, 5, 6, 7];
   for(int num in numbers){
+    // looped through the list and made each element of the list into a case with the corresponding day of the week as the print value
     switch (num){
       case 1:
       print('Monday');
