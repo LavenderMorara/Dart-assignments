@@ -60,4 +60,31 @@ void main(){
 
     }
   }
+
+  void printOneToTen(){
+    for(int i = 1; i <= 10; i++){
+      print(i);
+    }
+
   }
+  printOneToTen();
+
+ void printTenToOne(){
+  int i = 10;
+  while( i >= 1){
+    print(i);
+    i--;
+  }
+ }
+ printTenToOne();
+
+ void printOneToFive(){
+  int i = 5;
+  do{
+    print(i);
+    i++;
+  }while (i<=5);
+ }
+ printOneToFive();
+  }
+
